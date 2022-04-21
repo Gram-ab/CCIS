@@ -7,7 +7,10 @@ For more information on this file, see
 https://docs.djangoproject.com/en/4.0/howto/deployment/wsgi/
 """
 
-import os,sys
+import os, sys
+sys.path.append('Gestion_visiteur/GTV_VST')
+
+sys.path.append('/venv/Lib/site-packages')
 
 #exec(open("/venv/Scripts/activate").read(), {'__file__': "/venv/Scripts/activate"})
 
