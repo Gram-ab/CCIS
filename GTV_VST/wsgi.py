@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.0/howto/deployment/wsgi/
 
 import os,sys
 
-exec(open("/venv/bin/activate_this.py").read(), {'__file__': "/venv/bin/activate_this.py"})
+exec(open("../venv/Scripts/activate").read(), {'__file__': "../venv/Scripts/activate"})
 
 sys.path.append('/venv/core/core')
 
