@@ -7,7 +7,13 @@ For more information on this file, see
 https://docs.djangoproject.com/en/4.0/howto/deployment/wsgi/
 """
 
-import os
+import os,sys
+
+exec(open("/venv/bin/activate_this.py").read(), {'__file__': "/venv/bin/activate_this.py"})
+
+sys.path.append('/venv/core/core')
+
+sys.path.append('/venv/lib/python3.6/site-packages')
 
 from django.core.wsgi import get_wsgi_application
 
