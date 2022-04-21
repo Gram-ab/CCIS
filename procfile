@@ -1,1 +1,1 @@
-web gunicorn GTV_VST.wsgi:apllication --log-file -
+web: gunicorn GTV_VST.wsgi
