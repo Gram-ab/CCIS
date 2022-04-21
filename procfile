@@ -1,1 +1,1 @@
-web gunicorn Gestion_visiteur.wsgi:application --log-file -
+web: gunicorn GTV_VST.wsgi --log-file -
